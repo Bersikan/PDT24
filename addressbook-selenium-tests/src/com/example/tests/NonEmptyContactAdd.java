@@ -25,7 +25,7 @@ public class NonEmptyContactAdd extends TestBase {
 	contact.birhDay="17";
 	contact.birthMonth="July";
 	contact.birthYear="1988";
-	contact.groupAssign = "123";
+	contact.groupAssign = "name 1";
 	contact.secAddr="sAddr";
 	contact.secHomeAddr="sHAddr";
 	fillContactForm(contact);
