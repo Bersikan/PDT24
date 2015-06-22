@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18283" started-at="2015-06-19T15:32:43Z" finished-at="2015-06-19T15:33:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18283" started-at="2015-06-19T15:32:43Z" finished-at="2015-06-19T15:33:01Z">
+      <class name="com.example.tests.EmptyContactAdd">
+        <test-method status="PASS" signature="nonEmptyContactAdd()[pri:0, instance:com.example.tests.EmptyContactAdd@39378e61]" name="nonEmptyContactAdd" duration-ms="4211" started-at="2015-06-19T18:32:53Z" finished-at="2015-06-19T18:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonEmptyContactAdd -->
+      </class> <!-- com.example.tests.EmptyContactAdd -->
+      <class name="com.example.tests.EmtyGroupCreationTest">
+        <test-method status="PASS" signature="testEmptyGroupCreation()[pri:0, instance:com.example.tests.EmtyGroupCreationTest@102bb858]" name="testEmptyGroupCreation" duration-ms="1681" started-at="2015-06-19T18:32:51Z" finished-at="2015-06-19T18:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyGroupCreation -->
+      </class> <!-- com.example.tests.EmtyGroupCreationTest -->
+      <class name="com.example.tests.NonEmptyContactAdd">
+        <test-method status="PASS" signature="nonEmptyContactAdd()[pri:0, instance:com.example.tests.NonEmptyContactAdd@6e649f9f]" name="nonEmptyContactAdd" duration-ms="4170" started-at="2015-06-19T18:32:57Z" finished-at="2015-06-19T18:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonEmptyContactAdd -->
+      </class> <!-- com.example.tests.NonEmptyContactAdd -->
+      <class name="com.example.tests.NonEptyGroupCreationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.NonEptyGroupCreationTest@3ef78672]" name="setUp" is-config="true" duration-ms="5731" started-at="2015-06-19T18:32:43Z" finished-at="2015-06-19T18:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNonEmptyGroupCreation()[pri:0, instance:com.example.tests.NonEptyGroupCreationTest@3ef78672]" name="testNonEmptyGroupCreation" duration-ms="2330" started-at="2015-06-19T18:32:48Z" finished-at="2015-06-19T18:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonEmptyGroupCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.NonEptyGroupCreationTest@3ef78672]" name="tearDown" is-config="true" duration-ms="150" started-at="2015-06-19T18:33:01Z" finished-at="2015-06-19T18:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.NonEptyGroupCreationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
