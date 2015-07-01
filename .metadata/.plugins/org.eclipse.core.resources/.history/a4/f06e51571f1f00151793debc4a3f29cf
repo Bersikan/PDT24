@@ -1,0 +1,30 @@
+package com.example.fw;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class ApplocationManager {
+	public  WebDriver driver;
+	public  String baseUrl;		
+	public NavigationHelper navigationhelper;
+	public GroupHelper grouphelper;
+	public ContactHelper contacthelper ;
+	public ApplocationManager(){
+		 driver = new FirefoxDriver();
+		 baseUrl = "http://localhost/";
+		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		 
+		 navigationhelper = new NavigationHelper(this);
+		 grouphelper = new GroupHelper(this);
+		 contacthelper = new ContactHelper(this);
+	}
+
+	
+
+	public void stop() {
+		 driver.quit();
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.example.tests;
+
+import org.testng.annotations.Test;
+
+public class ContactModificationTests extends TestBase {
+
+
+	@Test
+	public void modifySomeGroup(){
+		app.getNavigationHelper().openMainPage();
+		app.getContactHelper().clickEditButtonByIndex(12);
+		ContactData newcontact = new ContactData();
+		newcontact.contactName ="new name"; 
+		newcontact.contactLastName = "new lastName";
+		app.getContactHelper().fillContactForm(newcontact);
+		app.getContactHelper().submitUpdate();
+		app.getContactHelper().returnToHomePage();
+		
+	}
+
+}

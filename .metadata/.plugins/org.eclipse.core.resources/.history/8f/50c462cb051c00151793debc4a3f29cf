@@ -1,0 +1,12 @@
+package com.example.fw;
+
+public abstract class HelperBase {
+	
+	private ApplocationManager manager;
+
+	public HelperBase (ApplocationManager manager) {
+		this.manager = manager;
+		
+	}
+
+}

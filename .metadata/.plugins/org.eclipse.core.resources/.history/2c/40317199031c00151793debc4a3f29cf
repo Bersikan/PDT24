@@ -1,0 +1,9 @@
+package com.example.fw;
+
+public class NavigationHelper {
+
+	public void openMainPage() {
+		ApplocationManager.driver.get(ApplocationManager.baseUrl + "/addressbookv4.1.4/");
+	}
+
+}

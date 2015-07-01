@@ -1,5 +1,6 @@
 package com.example.tests;
 
+
 public class ContactData {
 	public String contactName;
 	public String contactLastName;
@@ -40,4 +41,6 @@ public class ContactData {
 		this.secAddr = secAddr;
 		this.secHomeAddr = secHomeAddr;
 	}
+
+	
 }
